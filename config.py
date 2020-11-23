@@ -1,9 +1,9 @@
 """Flask configuration variables."""
 from os import urandom
 server = 'localhost'
-username = 'sa'
-password = 'Maqsood_9211'
-driver = 'ODBC+DRIVER+17+for+SQL+Server'
+username = '<your_username>'
+password = '<your_password>'
+driver = 'ODBC+DRIVER+17+for+SQL+Server'aqsood_9211
 database = 'SALES'
 engine_stmt = 'mssql+pyodbc://{}:{}@{}/{}?driver={}'.format(username,
                                                             password,
