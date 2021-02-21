@@ -3,7 +3,7 @@ from os import urandom
 server = 'localhost'
 username = '<your_username>'
 password = '<your_password>'
-driver = 'ODBC+DRIVER+17+for+SQL+Server'aqsood_9211
+driver = 'ODBC+DRIVER+17+for+SQL+Server'
 database = 'SALES'
 engine_stmt = 'mssql+pyodbc://{}:{}@{}/{}?driver={}'.format(username,
                                                             password,
